@@ -1,10 +1,17 @@
+@import url("../font/stylesheet.css")
+
 :root {
   /* Colors */
   --White: #F0F0F0;
-  --Black: #2A2A2A;
+  --Black: rgba(42, 42, 42, 1);
+}
+
+html {
+  font-size: 62.5%;
 }
 
 body {
+  height: 100vh;
   margin: 0 40px;
   padding: 0;
   font-family: 'Atyp Display';

@@ -1,10 +1,15 @@
 import './css/app.css';
 import react from 'react';
-import { Header } from "./header";
+import { Navbar } from "./navbar.js";
+import { Header } from "./Header";
+// import { Footer } from "./footer";
+
 function App() {
   return (
     <react.Fragment>
-      <Header/>
+      <Navbar />
+      <Header />
+      
     </react.Fragment>
   );
 }

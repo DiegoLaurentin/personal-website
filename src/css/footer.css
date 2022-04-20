@@ -1,0 +1,41 @@
+footer {
+
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+
+}
+
+.divisor-line {
+  height: 1px;
+  border-top: 1px solid rgba(42, 42, 42, 1);
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding-top: 25px;
+}
+
+.logo {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+a {
+ 
+  font-size: 12px;
+  text-decoration: none;
+  color: var(--Black);
+}
+
+.links {
+  display: flex;
+  justify-content: end;
+  gap: 150px;
+
+}
+
+
